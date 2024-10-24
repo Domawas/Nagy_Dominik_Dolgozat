@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 10pt;
+    color: #000000; 
+    background-image: url('kepek/hatter2.jpg');
+    margin: 0;
+    padding: 0;
+    text-align: justify; 
+}
+
+#tarolo {
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgba(245, 245, 220, 0.863);
+    padding: 10pt;
+
+}
+
+#fejlec {
+    font-size: 20pt;
+    letter-spacing: 5pt;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    letter-spacing: 10pt;
+    text-transform: uppercase;
+    
+}
+
+#kep{
+    float: right;
+    height: 150px; 
+    margin-left: 10px;
+    margin-right: 2pt;
+    border: 1px solid grey; 
+    border-radius: 10px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu ul {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 10px;
+    padding-left: 0;
+}
+
+.menu li {
+
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none; 
+    border: 1px solid #333;
+    padding: 5px 10px;
+    margin: 5px;
+    color: #333;
+}
+
+a:hover {
+    background-color: #333; 
+    color: #fff; 
+}
